@@ -12,7 +12,7 @@
   padding: 0 50px;
   display: flex;
   justify-content: space-between;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   align-items: center;
   font-weight: 500;
   font-size: 12px;
@@ -42,7 +42,10 @@
   color: #000;
 }
 
-.nav__link:hover,
+.nav__link:hover{
+  color: var(--main-color);
+}
+
 .is-active {
   color: var(--main-color);
 }
